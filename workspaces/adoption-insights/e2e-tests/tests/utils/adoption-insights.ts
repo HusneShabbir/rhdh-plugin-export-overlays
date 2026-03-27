@@ -90,7 +90,9 @@ export class TestHelper {
           .fill(sampleTemplate);
         await this.page.getByRole("button", { name: "Analyze" }).click();
         await this.page.getByRole("button", { name: "Import" }).click();
+        await this.page.waitForTimeout(2000);
         await this.page.getByRole("button", { name: "Register" }).click();
+        await this.page.waitForTimeout(5000);
         await this.page.getByRole("link", { name: "Self-service" }).click();
       }
       const pipelineCard = panel.locator("..").locator("..");
@@ -107,7 +109,7 @@ export class TestHelper {
       await uiHelper.clickButton("Review");
       await uiHelper.clickButton("Create");
       await this.page
-        .getByText("Run of Create a tekton CI")
+        .getByText("Run of tekton-template")
         .waitFor({ state: "visible" });
     }
 
