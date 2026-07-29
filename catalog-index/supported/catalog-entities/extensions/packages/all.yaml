@@ -129,6 +129,7 @@ spec:
     - ./proberaum-backstage-plugin-github-notifications-backend.yaml
     - ./proberaum-backstage-plugin-icon-viewer.yaml
     - ./red-hat-developer-hub-backstage-plugin-app-auth.yaml
+    - ./red-hat-developer-hub-backstage-plugin-app-defaults.yaml
     - ./red-hat-developer-hub-backstage-plugin-app-integrations.yaml
     - ./red-hat-developer-hub-backstage-plugin-bulk-import-backend.yaml
     - ./red-hat-developer-hub-backstage-plugin-bulk-import.yaml
@@ -167,6 +168,8 @@ spec:
     - ./rhdh-bsp-extensions-backend.yaml
     - ./rhdh-bsp-extensions.yaml
     - ./rhdh-bsp-global-floating-action-button.yaml
+    - ./rhdh-bsp-intelligent-assistant-backend.yaml
+    - ./rhdh-bsp-intelligent-assistant.yaml
     - ./rhdh-bsp-lightspeed-backend.yaml
     - ./rhdh-bsp-lightspeed.yaml
     - ./rhdh-bsp-orchestrator-backend-mod-loki.yaml
