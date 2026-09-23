@@ -17,9 +17,9 @@ metadata:
     - analytics
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-openssf"
-  # Tag: bs_1.54.6__1.1.1
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf@sha256:3e4dc09ec6edd1ffab7339cdd470b1ae690c1af7f1722796a54bccd4b668abc7"
-  version: 1.1.1
+  # Tag: bs_1.54.6__1.1.2
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf@sha256:dda3a31e800b693b89b3b15730910cf1d8f3753a8b4d0a039dd4f60b5be18331"
+  version: 1.1.2
   backstage:
     role: backend-plugin-module
     supportedVersions: 1.54.6

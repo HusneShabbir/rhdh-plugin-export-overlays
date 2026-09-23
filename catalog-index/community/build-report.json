@@ -21,7 +21,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:7b5471bebcfdedba6211453f7fc75367256624b56bd8fb911e6b664cd1c0531d"
+          "digest": "sha256:c378b9826d00e5af74b7227600fe2f6ab23e1ef7b02fb1a98aaa69ad738a2c0b"
         }
       },
       "package": "@backstage-community/plugin-3scale-backend",
@@ -109,7 +109,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:1561531c1abec3ce2f60e473818e9692fa3693b62ee49292b9ea4a458b476a28"
+          "digest": "sha256:c5bb987f7fc1a42c94937f4c086834faf11d7c579d58595693796c6535bbdae0"
         }
       },
       "package": "@backstage-community/plugin-azure-devops-backend",
@@ -135,7 +135,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:873a6f8c48eb60c5d97a016aeddc189f140ffc34637d27eb22a5b7fbaaac1483"
+          "digest": "sha256:f95aba711e4fbb13bc2cb799d6e98da19c35451dce6e0c60b28b347896bc714e"
         }
       },
       "package": "@backstage-community/plugin-azure-devops",
@@ -161,7 +161,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:03f0c7c9714f82eab349ddbe0bbfc75bbf3703cacb8442a2485ebdd2ef17cb5c"
+          "digest": "sha256:575cc2c5bc568896efc0b3105e74a571bf1252ba2ea877241c2f5c4c333fc034"
         }
       },
       "package": "@backstage/plugin-catalog-backend-module-bitbucket-cloud",
@@ -187,7 +187,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:4699f7dd384fcb22e116ca435d8155244c3bd36a508edef59ff62a28ff915847"
+          "digest": "sha256:119e4b5e25bc4ce14010d99de13911c3e11aff4183a7d268545b5d10865da887"
         }
       },
       "package": "@backstage/plugin-catalog-backend-module-bitbucket-server",
@@ -213,7 +213,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:885e75397d9660914dcda800bea4e5729f76f7da9d940e3f3d3f114d886cde47"
+          "digest": "sha256:fbdbcfb77f747e4c1515531fcef292448ed4ef7b99161d6866c2da1b47e69ee0"
         }
       },
       "package": "@backstage/plugin-scaffolder-backend-module-azure",
@@ -239,7 +239,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:8ddc549af931c46e3c70d43a5c66b91b93aa8e1aa246f31e6c36ab1d70b848b1"
+          "digest": "sha256:76a5617bff8c358d15060e770702b0dc74d9ecaedbd08f4d40b3ea59625b3f0b"
         }
       },
       "package": "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud",
@@ -265,7 +265,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:f8aa04baeed6c621ad1270fac754688bc498f7f07a015c560f3fde0103f3730c"
+          "digest": "sha256:ec2a8cd244bc4c582678ecebfc8b813d15e25a927b65713fd73c6a88901acc3e"
         }
       },
       "package": "@backstage/plugin-scaffolder-backend-module-bitbucket-server",
@@ -291,7 +291,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:ca293dc825d0919b291be9305efd7c50f22b1dd5a77d86c4e9b794c0847abafe"
+          "digest": "sha256:81dbf6b00414f0a33c199a2d24af095b5074083560fa1727f2ee759744f33388"
         }
       },
       "package": "@backstage/plugin-scaffolder-backend-module-gerrit",
@@ -317,7 +317,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:a8570c2ff972bb2774bd96c37ac1e69e4c24fe02b39c01a532c6820a8045d80e"
+          "digest": "sha256:3a349849c91fe48a0ff5aef112a23bba93340fef8592ee46c33bdb36b2c53f4b"
         }
       },
       "package": "@backstage-community/plugin-dynatrace",
@@ -339,18 +339,17 @@
           "status": "skip"
         },
         "catalog-index": {
-          "status": "fail",
-          "reason": "Image not found in registry: ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-github-actions:bs_1.54.6__1.4.0"
+          "status": "pass"
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:fb4b9089df4f45483cead88d0691045bf42ea7d352879afe1a598aa4bb2a46e2"
+          "digest": "sha256:672f261f3537f622c37359801510b4ac54149c573090838a7992badff8e59784"
         }
       },
       "package": "@backstage-community/plugin-github-actions",
       "version": "1.4.0",
       "workspace": "github",
-      "overall": "fail"
+      "overall": "pass"
     },
     "backstage-community-plugin-github-issues": {
       "stages": {
@@ -366,18 +365,17 @@
           "status": "skip"
         },
         "catalog-index": {
-          "status": "fail",
-          "reason": "Image not found in registry: ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-github-issues:bs_1.54.6__1.4.0"
+          "status": "pass"
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:51fc2b7172e8cbca13d9b3eaed3cbd09dc7e9d35f9bcb8e349799944b62443a6"
+          "digest": "sha256:ae98d3002a3546135e2b06546256f7926bd0a3cacf3a6587d20931b37dfaea21"
         }
       },
       "package": "@backstage-community/plugin-github-issues",
       "version": "1.4.0",
       "workspace": "github",
-      "overall": "fail"
+      "overall": "pass"
     },
     "immobiliarelabs-backstage-plugin-gitlab-backend": {
       "stages": {
@@ -457,7 +455,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:e948f52f68d474533a3ae4cc64c6ec0d8da8cfee2e6a55bf23c95086f33c04df"
+          "digest": "sha256:fb6c1c23f49176b15bd80057c42d9b2ee65192929a27fc3b972ad099ebb917a6"
         }
       },
       "package": "@backstage-community/plugin-jenkins-backend",
@@ -483,7 +481,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:3f739035ce50a9f031398d7fc421f9f8bf66cbb4efa6b83fc62cb1fd814afa14"
+          "digest": "sha256:7f76a8fd1cf2a4b464982e153e2eda551be2ff2c592942f67977080d5d0a0207"
         }
       },
       "package": "@backstage-community/plugin-jenkins",
@@ -495,7 +493,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-jfrog-artifactory:bs_1.54.6__2.0.1"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-jfrog-artifactory:bs_1.54.6__2.0.2"
         },
         "registry-enrich": {
           "status": "pass",
@@ -509,11 +507,11 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:20ae1d2fc47f39654ec48272479c7b4a9281bb84733a2b77b13e32c9d6eb835d"
+          "digest": "sha256:4288b49614668b1fed32d4b78ed93f7ce7b4cc67f11b9642c188b92cb54c81a0"
         }
       },
       "package": "@backstage-community/plugin-jfrog-artifactory",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "workspace": "jfrog-artifactory",
       "overall": "pass"
     },
@@ -535,7 +533,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:47a2f5b8edd603107b5e616dd8ea938ff423f9cdbc81c86c12db888c5b7ecee8"
+          "digest": "sha256:3045ea6f3d5f33f6ea3e192677cac0eded4a55ca0de137fa2249aaf0d5b42615"
         }
       },
       "package": "@backstage-community/plugin-lighthouse",
@@ -547,7 +545,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-nexus-repository-manager:bs_1.54.6__1.27.2"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-nexus-repository-manager:bs_1.54.6__1.27.4"
         },
         "registry-enrich": {
           "status": "pass",
@@ -561,11 +559,11 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:e6c27ac223ba94fc3ffd7cd859cab23c682665aad2562848c9c2d5ce1b41d8fd"
+          "digest": "sha256:29fef86669caa7a80d6ed324663e1c938bd23917f8727dab06110a3656c5f07f"
         }
       },
       "package": "@backstage-community/plugin-nexus-repository-manager",
-      "version": "1.27.2",
+      "version": "1.27.4",
       "workspace": "nexus-repository-manager",
       "overall": "pass"
     },
@@ -587,7 +585,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:3eac9c79d58aabe76cf76bf4d729763605eb3634d958a2e374259632f3a6d8f0"
+          "digest": "sha256:735db29ef38622b96921c0d768a4e15c0ab1bb1639957f27c1141bb4f42f13ac"
         }
       },
       "package": "@pagerduty/backstage-plugin-backend",
@@ -613,7 +611,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:7bca83e8519a7951fb9aaf456d6c4f758fec4378ebee3ef558a0b9eec49a6248"
+          "digest": "sha256:3794fe935018c02464d21d848004699fc2064d3bb05424aa48100dec27933974"
         }
       },
       "package": "@pagerduty/backstage-plugin",
@@ -639,7 +637,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:a80f69e56e6ae734fa10fc59e20e1c1c230965d7ecfee5bced7917febf87e216"
+          "digest": "sha256:8f650f0c0af0a6ad2f76d5ef5c38e726bfe3908fd69844e97ad5e445e5895ad8"
         }
       },
       "package": "@backstage-community/plugin-quay",
@@ -665,7 +663,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:3103dea773c9a420e8e20f9a7bb7f1d7dafe97457ec18f416ddd9568ec014804"
+          "digest": "sha256:3cdbed4190e2993210b3cace51b79bdba3535f2643b9f15ba30427fffaf460b6"
         }
       },
       "package": "@backstage-community/plugin-scaffolder-backend-module-quay",
@@ -677,11 +675,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-argo-cd-backend:bs_1.49.4__4.8.0",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-argo-cd-backend:bs_1.54.6__4.8.0"
         },
         "registry-enrich": {
           "status": "pass",
@@ -695,7 +689,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:39f4ea164aa3c430595ee2a0921ce021a1ea48aea2a57ae937b6d476bcc86c8b"
+          "digest": "sha256:ff50e5e4b90c6c0680f0c864c1f04edb244cdd40f33eff2c2715e7f092efa8a7"
         }
       },
       "package": "@roadiehq/backstage-plugin-argo-cd-backend",
@@ -707,11 +701,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-datadog:bs_1.49.4__2.7.2",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-datadog:bs_1.54.6__2.7.2"
         },
         "registry-enrich": {
           "status": "pass",
@@ -725,7 +715,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:c8f65d241ceb2ec859cb447cb2b50107d20bd284f80d1e5912e2b60b4292307e"
+          "digest": "sha256:214cd21b339bdb605e57849ad63d7ea5329304dcdcfe073706c4e87f852c7fa9"
         }
       },
       "package": "@roadiehq/backstage-plugin-datadog",
@@ -737,11 +727,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-github-insights:bs_1.49.4__3.5.0",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-github-insights:bs_1.54.6__3.5.0"
         },
         "registry-enrich": {
           "status": "pass",
@@ -755,7 +741,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:f7b9b6e2372c2f8cbb1f4aea76503ef59a340d104365ac3a4838e2c9695947e8"
+          "digest": "sha256:e680e919a0428850733b04e9338fa71f7c5377428066613964ece523507f200d"
         }
       },
       "package": "@roadiehq/backstage-plugin-github-insights",
@@ -767,11 +753,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-github-pull-requests:bs_1.49.4__3.7.0",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-github-pull-requests:bs_1.54.6__3.7.1"
         },
         "registry-enrich": {
           "status": "pass",
@@ -785,11 +767,11 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:a6ed68943ebc557cb1df3d490fbae58059062d18a0ebd79f9bd6d5ef60f73f61"
+          "digest": "sha256:35e65ec7267d5be4777a35fa6de13f24ae9f7c3ef42ccc075384b75e28df07a7"
         }
       },
       "package": "@roadiehq/backstage-plugin-github-pull-requests",
-      "version": "3.7.0",
+      "version": "3.7.1",
       "workspace": "roadie-backstage-plugins",
       "overall": "pass"
     },
@@ -797,11 +779,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-jira:bs_1.49.4__2.14.0",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-jira:bs_1.54.6__2.14.0"
         },
         "registry-enrich": {
           "status": "pass",
@@ -815,7 +793,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:34e912cc4dcb3cfd47872a409e19ab104c2d1c62364a7e31f760bfbc86c6e1fb"
+          "digest": "sha256:84ee8da238a3ce3f876e4e5f6b67fd0966bd149f6f6c23a6567f973d78634976"
         }
       },
       "package": "@roadiehq/backstage-plugin-jira",
@@ -827,11 +805,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-security-insights:bs_1.49.4__3.3.1",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-backstage-plugin-security-insights:bs_1.54.6__3.3.1"
         },
         "registry-enrich": {
           "status": "pass",
@@ -845,7 +819,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:38c9c2fa1874fe9264c99675e0f2eaf21d2c51a880a32cc0fa03f394c43f53e3"
+          "digest": "sha256:4dac7f2529dfff5039d6459540217256d2fc3bb21940e940125b3211f145534c"
         }
       },
       "package": "@roadiehq/backstage-plugin-security-insights",
@@ -857,11 +831,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-argocd:bs_1.49.4__1.8.1",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-argocd:bs_1.54.6__1.8.1"
         },
         "registry-enrich": {
           "status": "pass",
@@ -875,7 +845,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:1cacab2f4755db37b8ef898d69893fdd27d25722593a12d5d3c9d9689ae1e4ae"
+          "digest": "sha256:4e73e57cdcd6be35a903083a4ceb6f53b6314ac529a4d201243c9886a7568f67"
         }
       },
       "package": "@roadiehq/scaffolder-backend-argocd",
@@ -887,11 +857,7 @@
       "stages": {
         "bootstrap": {
           "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-module-utils:bs_1.49.4__4.1.2",
-          "bs_version_mismatch": true,
-          "reason": "Backstage version mismatch",
-          "expected_version": "1.54.6",
-          "found_version": "1.49.4"
+          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/roadiehq-scaffolder-backend-module-utils:bs_1.54.6__4.1.2"
         },
         "registry-enrich": {
           "status": "pass",
@@ -905,7 +871,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:1d9066c244d43e468de39be4ecabf408adde13b43db1270c9d6f497a0cff658d"
+          "digest": "sha256:72965a5472bf6c94701149730f75c853c1b52d19dbf8ace3c2220e034734feac"
         }
       },
       "package": "@roadiehq/scaffolder-backend-module-utils",
@@ -931,7 +897,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:2c395fd61f0f09aa5baef170cc23cfa2220e79622590cf966e23a65cc642c51b"
+          "digest": "sha256:22d6f988efd519558be6d7bc4a847cd0d6810561f60d7984aafa10145d52579d"
         }
       },
       "package": "@backstage-community/plugin-scaffolder-backend-module-servicenow",
@@ -957,7 +923,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:1d224e7d349063c91fcbcff687355937a94683d3f78cdb6379817dcdd9b5c2e4"
+          "digest": "sha256:2f9409888291eac9dd7272d7543b7309f466175d72d154cc403ec79df6474127"
         }
       },
       "package": "@backstage-community/plugin-scaffolder-backend-module-sonarqube",
@@ -983,7 +949,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:0006bb360d87c34f44c8cffd9cea76bdbf07bdb6b1281d081237bf24a4ddc060"
+          "digest": "sha256:4d1b55cee3e5add1d2a9e3d2a62d1720f8627bdeea7dc8248c590466a3b3791c"
         }
       },
       "package": "@backstage-community/plugin-sonarqube-backend",
@@ -1009,7 +975,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:7256028f09d0e297ce3cd06cec0a2005c422a495e8e0439d782cf566fded18cb"
+          "digest": "sha256:bda32593e161e898f59bfcb63d8204a092101738c2ea627b38238c1985135e57"
         }
       },
       "package": "@backstage-community/plugin-sonarqube",
@@ -1035,7 +1001,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:9ee853de9aed3ad78dc1f7f91331a387f566923a68c431487639cef5a3d66a04"
+          "digest": "sha256:3c23ba77772f85d31b9b939e9a01e10faafc2e41a9af8ec4b47547ae665db604"
         }
       },
       "package": "@backstage-community/plugin-tekton",
@@ -1051,7 +1017,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:98f23de651f248854b6bb5dd974c316f09603ce9b343273b53455755d2e9990b"
+          "digest": "sha256:acf37c7b09a61554e34f9062938e8608704047babddb7913c8156680c7784885"
         },
         "dpdy": {
           "status": "skip"
@@ -1073,7 +1039,7 @@
         },
         "image-metadata-fetch": {
           "status": "pass",
-          "digest": "sha256:ad447ec5797b159b631fefc403d9afd77e796d81c356cf1db6e09c843b3bd539"
+          "digest": "sha256:0327f492a442b88eecd0ec8c4eeec073667b9d43388b4f342f0bcfa48b27f767"
         },
         "dpdy": {
           "status": "skip"
@@ -1085,182 +1051,6 @@
       "package": "@backstage-community/plugin-acr",
       "version": "1.28.0",
       "workspace": "acr",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dependabot": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-dependabot:bs_1.54.6__1.1.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:fd7df49e3cb1a1e8c3895010f464f0ae39f36b07fdeafaf7e86a29259a423a4b"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-dependabot",
-      "version": "1.1.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck:bs_1.54.6__1.1.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:97da04bdea26e0dacae592f2bfdab64f30562d5542386d6960f746aab1d06057"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-filecheck",
-      "version": "1.1.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github:bs_1.54.6__4.3.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:d116e59b0e208fce756368996d35bf601f4b535f92736f34bd81b6fc0b0470b3"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-github",
-      "version": "4.3.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-jira": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-jira:bs_1.54.6__4.3.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:3c287fccbcbf024abc818c7c4ef664d2e0406f1213658291646a43d615c59ab9"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-jira",
-      "version": "4.3.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-openssf:bs_1.54.6__1.1.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:3e4dc09ec6edd1ffab7339cdd470b1ae690c1af7f1722796a54bccd4b668abc7"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-openssf",
-      "version": "1.1.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend-module-sonarqube": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-sonarqube:bs_1.54.6__4.3.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:550e02874ce24be0addda7eedb489ecd991729ec09e8ae7aca6312da86d00723"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-sonarqube",
-      "version": "4.3.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard-backend": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend:bs_1.54.6__4.3.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:23efefbd0ecdcfdbebacde6076b3a84aa160e319f3248c9aee1ab5d036339f3e"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard-backend",
-      "version": "4.3.1",
-      "workspace": "scorecard",
-      "overall": "pass"
-    },
-    "red-hat-developer-hub-backstage-plugin-scorecard": {
-      "stages": {
-        "bootstrap": {
-          "status": "pass",
-          "oci_ref": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard:bs_1.54.6__4.3.1"
-        },
-        "dpdy": {
-          "status": "skip"
-        },
-        "image-metadata-fetch": {
-          "status": "pass",
-          "digest": "sha256:12095e3ab404c0eb853831e645792d7bbe06c99b799bb4c5bb5a64a2de188859"
-        },
-        "catalog-index": {
-          "status": "pass"
-        }
-      },
-      "package": "@red-hat-developer-hub/backstage-plugin-scorecard",
-      "version": "4.3.1",
-      "workspace": "scorecard",
       "overall": "pass"
     },
     "apic-backstage": {
@@ -1343,9 +1133,9 @@
     }
   },
   "summary": {
-    "total": 51,
-    "succeeded": 47,
-    "failed": 4
+    "total": 43,
+    "succeeded": 41,
+    "failed": 2
   },
   "status": "partial"
 }
