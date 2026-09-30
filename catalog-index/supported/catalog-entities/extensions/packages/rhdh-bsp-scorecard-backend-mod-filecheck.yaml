@@ -1,7 +1,7 @@
 apiVersion: extensions.backstage.io/v1alpha1
 kind: Package
 metadata:
-  name: rhdh-backstage-plugin-scorecard-backend-module-filecheck
+  name: rhdh-bsp-scorecard-backend-mod-filecheck
   namespace: rhdh
   title: "Scorecard Backend Module for Filechecks"
   links:
@@ -17,7 +17,8 @@ metadata:
     - analytics
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-filecheck"
-  dynamicArtifact: oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck:bs_1.54.6__1.1.3
+  # Tag: bs_1.54.6__1.1.3
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-filecheck@sha256:975798b10c2c6254c5489357403ead9b3fb1c754847e890e96c1821db354e09e"
   version: 1.1.3
   backstage:
     role: backend-plugin-module

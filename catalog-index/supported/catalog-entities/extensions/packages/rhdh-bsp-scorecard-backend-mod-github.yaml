@@ -1,7 +1,7 @@
 apiVersion: extensions.backstage.io/v1alpha1
 kind: Package
 metadata:
-  name: rhdh-backstage-plugin-scorecard-backend-module-github
+  name: rhdh-bsp-scorecard-backend-mod-github
   namespace: rhdh
   title: "Scorecard Backend Module for GitHub"
   links:
@@ -18,7 +18,7 @@ metadata:
 spec:
   packageName: "@red-hat-developer-hub/backstage-plugin-scorecard-backend-module-github"
   # Tag: bs_1.54.6__4.4.1
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github@sha256:7266ffdce0929d5cd8947447758712ad9807c1859216e4cf121f534d5364db01"
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-scorecard-backend-module-github@sha256:c4f687d374a7f88a169701ddd9ef51aa3ad27e9cf0434dcc06a3030f39538fbd"
   version: 4.4.1
   backstage:
     role: backend-plugin-module
