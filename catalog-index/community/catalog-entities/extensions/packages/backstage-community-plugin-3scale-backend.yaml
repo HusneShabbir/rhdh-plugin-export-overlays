@@ -16,8 +16,8 @@ metadata:
   tags: []
 spec:
   packageName: "@backstage-community/plugin-3scale-backend"
-  # Tag: bs_1.54.6__3.17.0
-  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-3scale-backend@sha256:be31b7f4f19399241dd9930f1505ebfeb2e75268fa0550e3e3f5abbc880da66b"
+  # Tag: bs_1.54.9__3.17.0
+  dynamicArtifact: "oci://ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-3scale-backend@sha256:e752957e9fce6a366e932ce1f3ab83581d9a3499ad70e2694c864dc4ec7f1099"
   version: 3.17.0
   backstage:
     role: backend-plugin

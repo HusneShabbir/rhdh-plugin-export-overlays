@@ -1,8 +1,8 @@
 {
   "red-hat-developer-hub-backstage-plugin-analytics-module-adoption-insights": {
     "workspacePath": "adoption-insights/plugins/analytics-module-adoption-insights",
-    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-analytics-module-adoption-insights:bs_1.54.6__1.0.4",
-    "digest": "sha256:825f10d5c820473511463cbb483982043f6f4c184e8c19d1c1cbffc9e11931db",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/red-hat-developer-hub-backstage-plugin-analytics-module-adoption-insights:bs_1.54.9__1.0.4",
+    "digest": "sha256:1bbf7fb192529889e853351f77e36a6ff4463671978335b69b23acb0bb58b1f2",
     "build-date": "2026-05-22T15:20:49Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/main @ 710868b6ee9c4a596c5e3b5b5988193f2b8873ec",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1-rhel-9",

@@ -1,8 +1,8 @@
 {
   "backstage-community-plugin-catalog-backend-module-keycloak": {
     "workspacePath": "keycloak/plugins/catalog-backend-module-keycloak",
-    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-keycloak:bs_1.54.6__3.23.1",
-    "digest": "sha256:7cfa21ce90555615319b9977d1e1928cb76c006be69dc4f6e52c1d14902ca3ac",
+    "registryReference": "ghcr.io/redhat-developer/rhdh-plugin-export-overlays/backstage-community-plugin-catalog-backend-module-keycloak:bs_1.54.9__3.23.1",
+    "digest": "sha256:0b8bc3b4c234e25dee78d07b35348501a9265751a053fb72a48789dccc6ea494",
     "build-date": "2026-05-22T14:59:57Z",
     "upstream": "https://github.com/redhat-developer/rhdh-plugin-export-overlays/tree/main @ 710868b6ee9c4a596c5e3b5b5988193f2b8873ec",
     "midstream": "https://gitlab.cee.redhat.com/rhidp/rhdh-plugin-catalog/-/commits/rhdh-1-rhel-9",
